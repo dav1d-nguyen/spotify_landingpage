@@ -17,6 +17,7 @@ nav {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 2;
 }
 
 #logo {
@@ -47,9 +48,9 @@ nav {
   justify-content: space-between;
 }
 
-#title {
+.title {
   font-size: 50px;
-  font-weight: 900;
+  font-weight: bolder;
   margin-left: 5px;
   margin-top: 25px;
   margin-bottom: 10px;
@@ -70,6 +71,7 @@ button {
   border: black;
   text-transform: uppercase;
   height: 60px;
+  font-weight: bolder;
 }
 
 .button-links {
@@ -84,17 +86,64 @@ a:visited {
 a:link {
   color: white;
   text-decoration: none;
-
 }
 
 a:hover {
   color: white;
   text-decoration: none;
-
 }
 
 a:active {
   color: white;
   text-decoration: none;
-
 }
+
+/* Section 2 Styling */
+#section2 {
+  display: flex;
+  background-color: #CB1582;
+  padding: 70px 90px;
+  justify-content: space-between;
+  color: #A5FFEF;
+}
+
+.square {
+  height: 400px;
+  width: 400px;
+  background-color: #A5FFEF;
+  position: relative;
+  top: -400px;
+  display: flex;
+  align-items: flex-end;
+  font-size: 40px;
+  color:#CB1582;
+  font-weight: bolder;
+  z-index: 0;
+}
+
+.square > h1 {
+  margin: 30px 40px;
+}
+
+#gradient {
+  height: 300px;
+  width: 500px;
+  padding: 50px;
+}
+
+.container-overlap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#section2 > .container > button {
+  background-color: #A5FFEF;
+  text-transform: uppercase;
+}
+
+#section2 > .container > button > a {
+  color:#CB1582;
+}
+
