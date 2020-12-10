@@ -1,14 +1,22 @@
-/* Navbar Styling */
+/* Whole Webpage */
 body {
   margin: 0px;
   max-width: 1400px;
+  font-family: 'Proza Libre';
+  font-size: 12px;
+  font-weight: bold;
 }
 
+/* Navbar Styling */
 nav {
   background-color: black;
   display: flex;
   justify-content: space-between;
   padding: 25px 90px 25px 90px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 #logo {
@@ -17,7 +25,6 @@ nav {
 }
 
 #navbar-list {
-  font-family: 'Proza Libre';
   color: white;
   list-style-type: none;
   display:flex;
@@ -30,4 +37,64 @@ nav {
 
 #navbar-list > li {
   margin: 0 10px;
+}
+
+/* Section 1 Styling */
+#section1 {
+  display: flex;
+  background-color: #FF4632;
+  padding: 130px 90px;
+  justify-content: space-between;
+}
+
+#title {
+  font-size: 50px;
+  font-weight: 900;
+  margin-left: 5px;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+#balloon {
+  height: 350px;
+  width: auto;
+  padding-left: 100px;
+}
+
+button {
+  border-radius: 100px;
+  font-size: 15px;
+  padding: 10px 40px;
+  margin: 10px 0px;
+  background-color: black;
+  color: white;
+  border: black;
+  text-transform: uppercase;
+  height: 60px;
+}
+
+.button-links {
+  padding: 10px 40px;
+}
+
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:active {
+  color: white;
+  text-decoration: none;
+
 }
