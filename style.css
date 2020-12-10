@@ -1,0 +1,33 @@
+/* Navbar Styling */
+body {
+  margin: 0px;
+  max-width: 1400px;
+}
+
+nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 90px 25px 90px;
+}
+
+#logo {
+  height: 40px;
+  width: auto;
+}
+
+#navbar-list {
+  font-family: 'Proza Libre';
+  color: white;
+  list-style-type: none;
+  display:flex;
+  font-size: 12px;
+  font-weight: bold;
+  justify-content: space-evenly;
+  padding: 0px
+  
+}
+
+#navbar-list > li {
+  margin: 0 10px;
+}
