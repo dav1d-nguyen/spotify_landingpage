@@ -20,7 +20,7 @@ nav {
   z-index: 2;
 }
 
-#logo {
+.logo {
   height: 40px;
   width: auto;
 }
@@ -170,4 +170,102 @@ a:active {
 
 #section3 > .container > button > a {
   color:#2D46B9;
+}
+
+/* Footer Styling */
+
+.footer-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.footer3 {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px 90px 25px 90px;
+  background-color: black;
+  color: white;
+  font-weight: normal;
+  font-size: 10px;
+  align-items: center;
+  margin: 0px;
+  height: 50px;
+}
+
+footer > .footer-list > li {
+  padding: 15px;
+}
+
+#usa-flag {
+  height: 15px;
+  width: auto;
+  padding-left: 10px;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0px 90px 0px 90px;
+  background-color: black;
+  color: white;
+  align-items: center;
+  font-weight: bolder;
+  margin: 0px;
+  height: 30px;
+}
+
+.footer1 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 90px 0px 90px;
+  background-color: black;
+  color: white;
+  align-items: initial;
+  font-size: 10px;
+}
+
+.social-icons {
+  height: 30px;
+  width: auto;
+}
+
+.container-footer {
+  display: flex;
+  align-items: initial;
+  padding: 40px 40px 0px 40px;
+  justify-content: space-around;
+}
+
+footer > .container-footer > ul > li {
+  list-style-type: none;
+  padding: 7px;
+}
+
+#logo-footer {
+  height: 30px;
+  width: auto;
+}
+
+.footer-menu {
+  margin: 0px;
+}
+
+#footer-title {
+  color: grey;
+}
+
+.icon-border {
+  background-color: #222326;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 10px 0px 10px;
+}
+
+.container-footer-icons {
+  display: flex;
+  padding-top: 40px;
 }
