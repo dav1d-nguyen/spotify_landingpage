@@ -109,16 +109,16 @@ a:active {
 
 .square {
   height: 400px;
-  width: 400px;
+  width: 350px;
   background-color: #A5FFEF;
   position: relative;
-  top: -400px;
+  top: -560px;
+  left: 80px;
   display: flex;
   align-items: flex-end;
   font-size: 40px;
   color:#CB1582;
   font-weight: bolder;
-  z-index: 0;
 }
 
 .square > h1 {
@@ -128,14 +128,15 @@ a:active {
 #gradient {
   height: 300px;
   width: 500px;
-  padding: 50px;
+  padding-right: 100px;
+  padding-top: 250px;
+  margin: 0 auto;
+  position: relative;
+  top: -200px;
 }
 
-.container-overlap {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+.container-overlap{
+  height: 450px;
 }
 
 #section2 > .container > button {
@@ -147,3 +148,26 @@ a:active {
   color:#CB1582;
 }
 
+/* Section 3 */
+#section3 {
+  display: flex;
+  background-color: #2D46B9;
+  padding: 130px 90px;
+  justify-content: space-between;
+  background-image: url(images/LiE_circles.svg);
+  color:#1ED760;
+}
+
+#background {
+  width: 1320px;
+  height: auto;
+}
+
+#section3 > .container > button {
+  background-color: #1ED760;
+  text-transform: uppercase;
+}
+
+#section3 > .container > button > a {
+  color:#2D46B9;
+}
